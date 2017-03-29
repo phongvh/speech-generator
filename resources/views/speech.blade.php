@@ -77,7 +77,7 @@
         </div>
         <form method="post" action="{{ route('speechgen.speech') }}">
             {{ csrf_field() }}
-            @include('layouts.errors')
+            
             <div class="form-group">
                 <label for="body">Type text here</label>
                 <textarea class="form-control" id="body" name="body" rows="10"></textarea>
