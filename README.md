@@ -27,7 +27,7 @@ Phongvh\SpeechGen\SpeechGenServiceProvider::class
 
 Go to /speech to use the generator
 
-[//]: # (
+<!---
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
@@ -41,11 +41,11 @@ $ composer test
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details.
-)
+
 ## Security
 
 If you discover any security related issues, please email phongvh50ca@gmail.com instead of using the issue tracker.
-
+--->
 ## Credits
 
 - [Phong Vu][link-author]
