@@ -23,6 +23,11 @@ Add the ServiceProvider to the providers array in app/config/app.php
 Phongvh\SpeechGen\SpeechGenServiceProvider::class
 ```
 
+Add the routes to route/web.php
+```php
+\Phongvh\SpeechGen\SpeechGen::routes();
+```
+
 ## Usage
 
 Go to /speech to use the generator
