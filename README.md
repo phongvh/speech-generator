@@ -9,19 +9,6 @@
 
 This package provides you with a simple text-to-speech tool and convert your text to audio files.
 
-## Structure
-
-If any of the following are applicable to your project, then the directory structure should follow industry best practises by being named the following.
-
-```
-bin/        
-config/
-src/
-tests/
-vendor/
-```
-
-
 ## Install
 
 Via Composer
@@ -30,13 +17,17 @@ Via Composer
 $ composer require phongvh/speech-generator
 ```
 
-## Usage
+Add the ServiceProvider to the providers array in app/config/app.php
 
-``` php
-$skeleton = new Phongvh\SpeechGen();
-echo $skeleton->echoPhrase('Hello, League!');
+```php
+Phongvh\SpeechGen\SpeechGenServiceProvider::class
 ```
 
+## Usage
+
+Go to /speech to use the generator
+
+[//]: # (
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
@@ -50,7 +41,7 @@ $ composer test
 ## Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) and [CONDUCT](CONDUCT.md) for details.
-
+)
 ## Security
 
 If you discover any security related issues, please email phongvh50ca@gmail.com instead of using the issue tracker.
