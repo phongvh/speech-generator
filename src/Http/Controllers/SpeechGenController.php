@@ -21,7 +21,7 @@ class SpeechGenController extends Controller
         $voices = request('body');
 
         $tts = new GoogleSpeechService('vi-VN');
-        $tts->setDest(storage_path('app/public/mp3'));
+        $tts->setDest(storage_path('app/public'));
         
         $files = array();
         foreach (preg_split("/((\r?\n)|(\r\n?))/", $voices) as $voice) {            

@@ -28,9 +28,13 @@ Add the routes to route/web.php
 \Phongvh\SpeechGen\SpeechGen::routes();
 ```
 
+And make sure storage/app/public is writable by webserver
+
 ## Usage
 
 Go to /speech to use the generator
+
+This version is supposed to generate mp3 files of a word list in Vietnamese. Each word should be in a separate line.
 
 <!---
 ## Change log
