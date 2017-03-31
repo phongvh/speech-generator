@@ -78,9 +78,9 @@
     <div class="content">        
         @foreach ($files as $file)
         <p>
-            <a href="{{ URL::to('storage/mp3'). '/' . $file }}" target="_blank">{{ $file }}</a><br/>
+            <a href="{{ URL::to('storage'). '/' . $file }}" target="_blank">{{ $file }}</a><br/>
             <audio controls>
-              <source src="{{ URL::to('storage/mp3'). '/' . $file }}" type="audio/mpeg">
+              <source src="{{ URL::to('storage'). '/' . $file }}" type="audio/mpeg">
             Your browser does not support the audio element.
             </audio>
             </p>
